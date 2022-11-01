@@ -21,19 +21,29 @@ Evento exclusivo promovido pela Rocketseat de 31/10 a 04/11
 <br>
 
 <p align="center">
-  <img alt="mysticker" src="./assets/screenshot.png" width="20%">
+  <img alt="nlw-copa" src="./assets/screenshot.png" width="20%">
 </p>
 
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
+- Backend:
 - [Node e NPM](https://nodejs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Fastify](https://www.fastify.io/)
 - [Prisma](https://www.prisma.io/)
 
-e promovido por:
+- Frontend:
+- [Next.js](https://nextjs.org/)
+
+- Mobile:
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Native Base](https://nativebase.io/)
+- [Google Fonts](https://fonts.google.com/)
+
+Promovido por:
 
 - [Rocketseat](https://www.rocketseat.com.br/)
 
@@ -43,7 +53,7 @@ Desenvolvimento:
 
 - Prisma-erd-generator - Diagramas com base nas configurações do banco de dados
 - Mermaid-cli - Geração de diagramas através de códigos
-- @fastify/cors -
+- @fastify/cors - Controle de acesso cross origin
 
 ## :clipboard: Projeto
 
@@ -55,7 +65,7 @@ Em produção ...
 
 Para executar o código diretamente no seu computador, são necessários os seguintes softwares e ferramentas: [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/), Um dispositivo físico Android/IOS(necessário ter o APP Expo Go) ou um emulador, opcional IDE como o [VSCode](https://code.visualstudio.com/) e ferramenta de linha de comando [Git](https://git-scm.com/),
 
-```
+<!-- ```
 # Clone ou baixe este repositório.
 
 $ git clone https://github.com/rmpetersen86/...
@@ -73,7 +83,7 @@ $ npm prisma generate
 $ npm ...
 
 
-```
+``` -->
 
 ## :memo: Licença
 
@@ -86,11 +96,15 @@ Esse projeto está sob a licença MIT.
 ---
 
 <a href="https://www.linkedin.com/in/rafael-petersen-ab827a14a/">
- <img style="border-radius: 50%;" src="https://github.com/rmpetersen86.png?size=100" width="100px; rounded" alt=""/>
+ <!-- <img style="border-radius: 50%;" src="https://github.com/rmpetersen86.png?size=100" width="100px; rounded" alt=""/> -->
+ <p align="center">
+  <img alt="nlw-copa" src="./assets/screenshot.png" width="30%">
+</p>
  <br />
  <sub><b>Rafael M. Petersen</b></sub></a> <!-- <a href="https://www.linkedin.com/in/rafael-petersen-ab827a14a/" title="RMPetersen"></a> -->
 
 Feito por Rafael M. Petersen; Entre em contato!
 
-[![Twitter Badge](https://img.shields.io/badge/-@rafaelpetersen1-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/rafaelpetersen1)](https://twitter.com/rafaelpetersen1) [![Linkedin Badge](https://img.shields.io/badge/-Rafael-blue?style=flat-square&logo=Linkedin&logoColor=white&link=www.linkedin.com/in/rafael-petersen-ab827a14a)](www.linkedin.com/in/rafael-petersen-ab827a14a)
+[![Twitter Badge](https://img.shields.io/badge/-@rafaelpetersen1-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/rafaelpetersen1)](https://twitter.com/rafaelpetersen1)
+[![Linkedin Badge](https://img.shields.io/badge/-Rafael-blue?style=flat-square&logo=Linkedin&logoColor=white&link=www.linkedin.com/in/rafael-petersen-ab827a14a)](www.linkedin.com/in/rafael-petersen-ab827a14a)
 [![Gmail Badge](https://img.shields.io/badge/-rafael.petersen86@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rafael.petersen86@gmail.com)](mailto:rafael.petersen86@gmail.com)
