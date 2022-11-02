@@ -2,9 +2,7 @@
 
 <p align="center">
 Evento exclusivo promovido pela Rocketseat de 31/10 a 04/11
-
 <a href='https://nlw.rocketseat.com.br/convite/rafael-1287'>Link para o evento</a>
-
 </p>
 
 <p align="center">
@@ -26,38 +24,47 @@ Evento exclusivo promovido pela Rocketseat de 31/10 a 04/11
 
 ## :rocket: Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+### Backend:
 
-- Backend:
 - [Node e NPM](https://nodejs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Fastify](https://www.fastify.io/)
 - [Prisma](https://www.prisma.io/)
 
-- Frontend:
-- [Next.js](https://nextjs.org/)
+---
 
-- Mobile:
+### Frontend:
+
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+
+---
+
+### Mobile:
+
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
 - [Native Base](https://nativebase.io/)
 - [Google Fonts](https://fonts.google.com/)
 
-Promovido por:
+### Promovido por:
 
 - [Rocketseat](https://www.rocketseat.com.br/)
 
 ## :pencil: Pacotes e extensões
 
-Desenvolvimento:
-
 - Prisma-erd-generator - Diagramas com base nas configurações do banco de dados
 - Mermaid-cli - Geração de diagramas através de códigos
 - @fastify/cors - Controle de acesso cross origin
+- Zod - Validação de Esquemas
+- Short-unique-id - Criação de UUID únicas
+- PostCSS - Codificação CSS com JavaScript
+- Autoprefixer - Plugin para transcrição do PostCSS
 
 ## :clipboard: Projeto
 
-Em produção ...
+- Em produção ...
 
 ## :package: Instalação
 
@@ -96,9 +103,8 @@ Esse projeto está sob a licença MIT.
 ---
 
 <a href="https://www.linkedin.com/in/rafael-petersen-ab827a14a/">
- <!-- <img style="border-radius: 50%;" src="https://github.com/rmpetersen86.png?size=100" width="100px; rounded" alt=""/> -->
+ <img style="border-radius: 50px;" src="https://github.com/rmpetersen86.png?size=100" width="100px" alt=""/>
  <p align="center">
-  <img alt="nlw-copa" src="./assets/screenshot.png" width="30%">
 </p>
  <br />
  <sub><b>Rafael M. Petersen</b></sub></a> <!-- <a href="https://www.linkedin.com/in/rafael-petersen-ab827a14a/" title="RMPetersen"></a> -->
