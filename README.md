@@ -30,6 +30,8 @@ Evento exclusivo promovido pela Rocketseat de 31/10 a 04/11
 - [Typescript](https://www.typescriptlang.org/)
 - [Fastify](https://www.fastify.io/)
 - [Prisma](https://www.prisma.io/)
+- [OAuth]()
+- [JWT]()
 
 ---
 
