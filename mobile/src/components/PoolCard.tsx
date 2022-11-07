@@ -1,25 +1,25 @@
-import { TouchableOpacity, TouchableOpacityProps } from 'react-native';
-import { Heading, HStack, Text, VStack } from 'native-base';
+import { TouchableOpacity, TouchableOpacityProps } from "react-native"
+import { Heading, HStack, Text, VStack } from "native-base"
 
-import { Participants, ParticipantProps } from './Participants';
+import { Participants, ParticipantProps } from "./Participants"
 
-export interface PoolPros {
-  id: string;
-  code: string;
-  title: string;
-  ownerId: string;
-  createdAt: string;
+export interface PoolCardProps {
+  id: string
+  code: string
+  title: string
+  ownerId: string
+  createdAt: string
   owner: {
-    name: string;
-  },
-  participants: ParticipantProps[];
+    name: string
+  }
+  participants: ParticipantProps[]
   _count: {
-    participants: number;
+    participants: number
   }
 }
 
 interface Props extends TouchableOpacityProps {
-  data: PoolPros;
+  data: PoolCardProps
 }
 
 export function PoolCard({ data, ...rest }: Props) {
@@ -53,5 +53,5 @@ export function PoolCard({ data, ...rest }: Props) {
         />
       </HStack>
     </TouchableOpacity>
-  );
+  )
 }

@@ -49,10 +49,19 @@ Evento exclusivo promovido pela Rocketseat de 31/10 a 04/11
 - [Expo](https://expo.dev/)
 - [Native Base](https://nativebase.io/)
 - [Google Fonts](https://fonts.google.com/)
+- [React Navigation](https://reactnavigation.org/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
 ### Promovido por:
 
 - [Rocketseat](https://www.rocketseat.com.br/)
+
+#### Demais ferramentas:
+
+- [JSON Formatter & Validator](https://jsonformatter.curiousconcept.com/)
+- [Insomnia]()
+- [VSCode](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
 
 ## :pencil: Pacotes e extensões
 
