@@ -56,12 +56,17 @@ Evento exclusivo promovido pela Rocketseat de 31/10 a 04/11
 
 - [Rocketseat](https://www.rocketseat.com.br/)
 
-#### Demais ferramentas:
+#### Demais bibliotecas e ferramentas:
 
 - [JSON Formatter & Validator](https://jsonformatter.curiousconcept.com/)
 - [Insomnia]()
 - [VSCode](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
+- [Country List]()
+- [React Native Country Flag]()
+- [Day.js]()
+- [Dot Env]()
+- [Babel Plugin Inline Dotenv]()
 
 ## :pencil: Pacotes e extensões
 
