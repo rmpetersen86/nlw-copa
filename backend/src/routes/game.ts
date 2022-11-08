@@ -18,7 +18,7 @@ export async function gameRoutes(fastify: FastifyInstance) {
 
       const games = await prisma.game.findMany({
         orderBy: {
-          date: "desc",
+          date: "asc",
         },
         include: {
           guesses: {

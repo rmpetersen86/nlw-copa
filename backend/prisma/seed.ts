@@ -2,17 +2,6 @@ import { PrismaClient } from "@prisma/client"
 
 const prisma = new PrismaClient()
 
-/* {
-    date: "2022-11-20T16:00:00.201Z",
-    firstTeamCountryCode: "QA",
-    secondTeamCountryCode: "EQ",
-  },
-  {
-    date: "2022-11-21T13:00:00.201Z",
-    firstTeamCountryCode: "GB-ENG",
-    secondTeamCountryCode: "IR",
-  }, */
-
 async function main() {
   const gamesScheudle = [
     {
@@ -114,6 +103,146 @@ async function main() {
       date: "2022-11-25T19:00:00.201Z",
       firstTeamCountryCode: "GB-ENG",
       secondTeamCountryCode: "US",
+    },
+    {
+      date: "2022-11-26T10:00:00.201Z",
+      firstTeamCountryCode: "TN",
+      secondTeamCountryCode: "AU",
+    },
+    {
+      date: "2022-11-26T13:00:00.201Z",
+      firstTeamCountryCode: "PL",
+      secondTeamCountryCode: "SA",
+    },
+    {
+      date: "2022-11-26T16:00:00.201Z",
+      firstTeamCountryCode: "FR",
+      secondTeamCountryCode: "DK",
+    },
+    {
+      date: "2022-11-26T19:00:00.201Z",
+      firstTeamCountryCode: "AR",
+      secondTeamCountryCode: "MX",
+    },
+    {
+      date: "2022-11-27T10:00:00.201Z",
+      firstTeamCountryCode: "JP",
+      secondTeamCountryCode: "CR",
+    },
+    {
+      date: "2022-11-27T13:00:00.201Z",
+      firstTeamCountryCode: "BE",
+      secondTeamCountryCode: "MA",
+    },
+    {
+      date: "2022-11-27T16:00:00.201Z",
+      firstTeamCountryCode: "HR",
+      secondTeamCountryCode: "CA",
+    },
+    {
+      date: "2022-11-27T19:00:00.201Z",
+      firstTeamCountryCode: "ES",
+      secondTeamCountryCode: "DE",
+    },
+    {
+      date: "2022-11-28T10:00:00.201Z",
+      firstTeamCountryCode: "CM",
+      secondTeamCountryCode: "RS",
+    },
+    {
+      date: "2022-11-28T13:00:00.201Z",
+      firstTeamCountryCode: "KR",
+      secondTeamCountryCode: "GH",
+    },
+    {
+      date: "2022-11-28T16:00:00.201Z",
+      firstTeamCountryCode: "BR",
+      secondTeamCountryCode: "CH",
+    },
+    {
+      date: "2022-11-28T19:00:00.201Z",
+      firstTeamCountryCode: "PT",
+      secondTeamCountryCode: "UY",
+    },
+    {
+      date: "2022-11-29T15:00:00.201Z",
+      firstTeamCountryCode: "EC",
+      secondTeamCountryCode: "SN",
+    },
+    {
+      date: "2022-11-29T15:00:00.201Z",
+      firstTeamCountryCode: "NL",
+      secondTeamCountryCode: "QA",
+    },
+    {
+      date: "2022-11-29T19:00:00.201Z",
+      firstTeamCountryCode: "IR",
+      secondTeamCountryCode: "US",
+    },
+    {
+      date: "2022-11-29T19:00:00.201Z",
+      firstTeamCountryCode: "GB-WLS",
+      secondTeamCountryCode: "GB-ENG",
+    },
+    {
+      date: "2022-11-30T15:00:00.201Z",
+      firstTeamCountryCode: "TN",
+      secondTeamCountryCode: "FR",
+    },
+    {
+      date: "2022-11-30T15:00:00.201Z",
+      firstTeamCountryCode: "AU",
+      secondTeamCountryCode: "DK",
+    },
+    {
+      date: "2022-11-30T19:00:00.201Z",
+      firstTeamCountryCode: "PL",
+      secondTeamCountryCode: "AR",
+    },
+    {
+      date: "2022-11-30T19:00:00.201Z",
+      firstTeamCountryCode: "SA",
+      secondTeamCountryCode: "MX",
+    },
+    {
+      date: "2022-12-01T15:00:00.201Z",
+      firstTeamCountryCode: "HR",
+      secondTeamCountryCode: "BE",
+    },
+    {
+      date: "2022-12-01T15:00:00.201Z",
+      firstTeamCountryCode: "CA",
+      secondTeamCountryCode: "MA",
+    },
+    {
+      date: "2022-12-01T19:00:00.201Z",
+      firstTeamCountryCode: "JP",
+      secondTeamCountryCode: "ES",
+    },
+    {
+      date: "2022-12-01T19:00:00.201Z",
+      firstTeamCountryCode: "CR",
+      secondTeamCountryCode: "DE",
+    },
+    {
+      date: "2022-12-01T15:00:00.201Z",
+      firstTeamCountryCode: "KR",
+      secondTeamCountryCode: "PT",
+    },
+    {
+      date: "2022-12-01T15:00:00.201Z",
+      firstTeamCountryCode: "GH",
+      secondTeamCountryCode: "UY",
+    },
+    {
+      date: "2022-12-01T19:00:00.201Z",
+      firstTeamCountryCode: "RS",
+      secondTeamCountryCode: "CH",
+    },
+    {
+      date: "2022-12-01T19:00:00.201Z",
+      firstTeamCountryCode: "CM",
+      secondTeamCountryCode: "BR",
     },
   ]
 

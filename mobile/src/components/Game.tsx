@@ -39,7 +39,7 @@ export function Game({
 
   const when = dayjs(data.date)
     .locale(ptBR)
-    .format("dddd DD [de] MM [de] YYYY [às] HH:MM[h]");
+    .format("ddd DD[/]MM [às] HH:mm[h]");
 
   return (
     <VStack
