@@ -86,27 +86,38 @@ Evento exclusivo promovido pela Rocketseat de 31/10 a 04/11
 
 ### Pré-requisitos
 
-Para executar o código diretamente no seu computador, são necessários os seguintes softwares e ferramentas: [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/), Um dispositivo físico Android/IOS(necessário ter o APP Expo Go) ou um emulador, opcional IDE como o [VSCode](https://code.visualstudio.com/) e ferramenta de linha de comando [Git](https://git-scm.com/),
+Para executar o projeto, são necessários os seguintes softwares e ferramentas: [Node.js](https://nodejs.org/en/), [Expo](https://expo.io/), Um dispositivo físico Android/IOS(necessário ter o APP Expo Go) ou um emulador, opcional IDE como o [VSCode](https://code.visualstudio.com/) e a ferramenta de linha de comando [Git](https://git-scm.com/),
 
-<!-- ```
-# Clone ou baixe este repositório.
+```
+# Clone ou baixe este repositório como zip.
 
-$ git clone https://github.com/rmpetersen86/...
+$ git clone https://github.com/rmpetersen86/nlw-copa
 
-# Acesse o diretório onde o repositório foi clonado ou baixado
+#Acesse o diretório onde o repositório foi clonado ou baixado
 #Caso tenha sido baixado, descompacte o arquivo e acesse o diretório
 
-$ cd ...
+$ cd nlw-copa
 
-# Instale as dependências
-$ npm install
-$ npm prisma generate
+#Acesse o diretório do Backend e Instale as dependências
+
+$cd backend
+$ npm i
+$ npx prisma generate
 
 # Execute aplicação
 $ npm ...
 
+#Acesse o diretório do Mobile e Instale as dependências
 
-``` -->
+$cd mobile
+$ npm i
+
+#Abra o projeto em uma IDE (VSCode) e altere o arquivo src/services/api.ts
+# na propriedade "baseURL:" altere para o endereço IP do seu computador.
+#É necessário ter uma ID de cliente OAuth2.0 do google e criar um arquivo .env conforme o .env.example adicionando a ID do client na propriedade CLIENT_ID
+
+
+```
 
 ## :memo: Licença
 

@@ -1,32 +1,32 @@
-import { Button, HStack, Text, useTheme, VStack } from "native-base";
-import { X, Check } from "phosphor-react-native";
-import { getName } from "country-list";
-import dayjs from "dayjs";
-import ptBR from "dayjs/locale/pt-br";
-import { Team } from "./Team";
+import { Button, HStack, Text, useTheme, VStack } from "native-base"
+import { X, Check } from "phosphor-react-native"
+import { getName } from "country-list"
+import dayjs from "dayjs"
+import ptBR from "dayjs/locale/pt-br"
+import { Team } from "./Team"
 
 interface GuessProps {
-  id: string;
-  gameId: string;
-  createdAt: string;
-  participantId: string;
-  firstTeamPoints: number;
-  secondTeamPoints: number;
+  id: string
+  gameId: string
+  createdAt: string
+  participantId: string
+  firstTeamPoints: number
+  secondTeamPoints: number
 }
 
 export interface GameProps {
-  id: string;
-  date: Date;
-  firstTeamCountryCode: string;
-  secondTeamCountryCode: string;
-  guess: null | GuessProps;
+  id: string
+  date: Date
+  firstTeamCountryCode: string
+  secondTeamCountryCode: string
+  guess: null | GuessProps
 }
 
 interface Props {
-  data: GameProps;
-  onGuessConfirm: () => void;
-  setFirstTeamPoints: (value: string) => void;
-  setSecondTeamPoints: (value: string) => void;
+  data: GameProps
+  onGuessConfirm: () => void
+  setFirstTeamPoints: (value: string) => void
+  setSecondTeamPoints: (value: string) => void
 }
 
 export function Game({
@@ -35,11 +35,11 @@ export function Game({
   setSecondTeamPoints,
   onGuessConfirm,
 }: Props) {
-  const { colors, sizes } = useTheme();
+  const { colors, sizes } = useTheme()
 
   const when = dayjs(data.date)
     .locale(ptBR)
-    .format("dddd DD [de] MM [de] YYYY [às] HH:MM[h]");
+    .format("dddd DD[/]MM [às] HH:mm[h]")
 
   return (
     <VStack
@@ -100,5 +100,5 @@ export function Game({
         </Button>
       )}
     </VStack>
-  );
+  )
 }
