@@ -48,6 +48,7 @@ export function AuthContextProvider({ children }: AuthProviderProps) {
 
   async function signInWithGoogle(access_token: string) {
     try {
+      console.log(access_token)
       setIsUserLoading(true)
       const tokenResponse = await api.post("/users", { access_token })
       api.defaults.headers.common[
